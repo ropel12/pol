@@ -1,7 +1,7 @@
 <?php
 namespace  Satrio\Librarycomposer;
 class Customer {
-    public function __construct(private string $hello="satrio w")
+    public function __construct(private string $hello="satrio w" , public string $data)
     {
     }
     public function  Hello():string {
